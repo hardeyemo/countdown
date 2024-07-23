@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: hsl(235, 16%, 14%)
+}
+.joint{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70vh;
+}
+.joint h1{
+    color: hsl(0, 0%, 100%);
+    letter-spacing: 12px;
+    text-transform: uppercase;
+}
+.date{
+    display: flex;
+    text-transform: uppercase;
+    gap: 40px;
+    color: hsl(345, 95%, 68%);
+}
+.day{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    letter-spacing: 5px;
+}
+.day h1{
+    background-color: hsl(236, 21%, 26%);
+    border-radius: 10px;
+    padding: 50px 40px;
+    font-size: 100px;
+}
+.hour{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    letter-spacing: 5px;
+}
+.hour h1{
+    background-color: hsl(236, 21%, 26%);
+    border-radius: 10px;
+    padding: 50px 40px;
+    font-size: 100px;
+}
+.min{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    letter-spacing: 5px;
+}
+.min h1{
+    background-color: hsl(236, 21%, 26%);
+    border-radius: 10px;
+    padding: 50px 40px;
+    font-size: 100px;
+}
+.sec{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    letter-spacing: 5px;
+}
+.sec h1{
+    background-color: hsl(236, 21%, 26%);
+    border-radius: 10px;
+    padding: 50px 40px;
+    font-size: 100px;
+}
+footer{
+    background-image: url(/images/pattern-hills.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
